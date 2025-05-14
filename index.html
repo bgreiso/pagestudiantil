@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Estudiantil</title>
+</head>
+<a href="formulario.html" class="boton-registro">Registrarse</a>
+
+<style>
+  .boton-registro {
+    display: inline-block; /* Permite aplicar padding y márgenes */
+    padding: 10px 20px;
+    background-color: #457ce0; /* Un color azul llamativo */
+    color: white;
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Animación suave al pasar el ratón */
+  }
+
+  .boton-registro:hover {
+    background-color: #fff78b; /* Un tono más oscuro al pasar el ratón */
+  }
+    body {
+        background: linear-gradient(135deg, #e6e8f8, #5576e2); /* Fondo degradado */
+        color: #000000; /* Texto blanco */
+        font-family: 'Segoe UI', sans-serif; /* Fuente moderna */
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro con transparencia */
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Sombra elegante */
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+        text-transform: uppercase; /* Texto en mayúsculas */
+        letter-spacing: 2px; /* Espaciado entre letras */
+    }
+
+    main {
+        padding: 40px;
+    }
+
+    section {
+        background-color: rgba(255, 255, 255, 0.2); /* Transparencia para el fondo */
+        border-radius: 10px; /* Bordes redondeados */
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para profundidad */
+    }
+
+    h2 {
+        font-size: 2rem;
+        border-bottom: 2px solid #af4261; /* Línea decorativa */
+        padding-bottom: 10px;
+    }
+
+    ul {
+        list-style: square; /* Cambia el estilo de las viñetas */
+        padding-left: 20px;
+    }
+
+    .alucivo img {
+        border-radius: 10px; /* Bordes redondeados */
+        max-width: 100%;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Sombra para la imagen */
+    }
+
+    footer {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #ffffff;
+        text-align: center;
+        padding: 10px;
+        font-size: 0.9rem;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+
+    a {
+        color: #f3ec78; /* Color del enlace */
+        text-decoration: none; /* Quita el subrayado */
+    }
+
+    a:hover {
+        text-decoration: underline; /* Subrayado al pasar el mouse */
+        color: #af4261; /* Cambia el color al pasar el mouse */
+    }
+</style>
+<body>
+    <header>
+        <h1>Datos Estudiantiles</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Datos Personales</h2>
+            <p>Nombre: Greiso Briceño</p>
+            <p>Cédula: 30.073.550</p>
+            <p>Carrera: Informática</p>
+        </section>
+
+        <section>
+            <h2>Tema de Trabajo Especial de Grado</h2>
+            <p>Sistema de facturación automatizado para los procesos administrativos y operativos de Inversiones Manuelmig C.A</p>
+            <h3>Objetivos</h3>
+            <ul>
+                <li>Identificar las ineficiencias del proceso de facturación manual, incluyendo errores
+                    comunes, retrasos en la emisión de facturas y su efecto en la relación con los clientes.</li>
+                <li>Establecer cómo la falta de un sistema integrado afecta el control del inventario y los
+                    ingresos, incluyendo situaciones como sobreventas o faltantes que impactan negativamente en el
+                    servicio al cliente.</li>
+                <li>Evaluar los beneficios esperados de un sistema automatizado, tales como mejoras en la
+                    eficiencia operativa, reducción de errores, optimización del flujo de caja y aseguramiento del
+                    cumplimiento normativo.</li>
+            </ul>
+        </section>
+
+        <section class="alucivo">
+            <h2>Material Alusivo</h2>
+            <img src="C:\Users\PC-16\Desktop\practica\Programas-Facturacion-1024x552.jpg" alt="Descripción de la imagen" style="max-width:100%;">
+            <!-- O puedes agregar un video en lugar de una imagen -->
+            <!-- <video controls>
+                <source src="ruta/del/video.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+            </video> -->
+        </section>
+    </main>
+    <footer>
+        <p>Correo Electrónico: <a href="mailto:bgreiso@gmail.com">bgreiso@gmail.com</a></p>
+        <p>&copy; 2025 - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
